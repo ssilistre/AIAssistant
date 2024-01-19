@@ -4,7 +4,7 @@ import cv2
 import threading
 import time
 import speech_recognition as sr
-import func
+#import func
 import sys
 
 class ImageCaptioning:
@@ -43,11 +43,11 @@ class ImageCaptioning:
             sys.exit()
         elif "chrome aç" in command.lower():
             print("Chrome başlatılıyor...")
-            func.open_chrome()
+            #func.open_chrome()
         elif "ne görüyorsun" in command.lower():
             #cv2.imwrite('son_cerceve.jpg', self.last_frame)
             #print("Çerçeve kaydedildi.")
-            func.chat_with_openai("Gördüğü Şey:"+self.caption)
+            #func.chat_with_openai("Gördüğü Şey:"+self.caption)
         else:
             print("Tanınmayan komut: " + command)
 
