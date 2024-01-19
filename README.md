@@ -17,7 +17,7 @@ You can install these packages using the following pip command:
 pip install torch transformers opencv-python speech_recognition
 ```
 
-##Usage
+## Usage
 To run the program, execute the main Python file (<file_name>.py):
 
 ```bash
@@ -25,7 +25,7 @@ python <file_name>.py
 ```
 The program captures images from the camera, detects faces, and generates captions for the images. It can also recognize and respond to specific voice commands.
 
-##Voice Commands
+## Voice Commands
 The program can recognize the following voice commands:
 
 "Hello": Makes the program greet.
@@ -35,7 +35,7 @@ The program can recognize the following voice commands:
 "Open Chrome": Starts Google Chrome (requires additional functionality).
 "What do you see": Displays the caption of the image.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
